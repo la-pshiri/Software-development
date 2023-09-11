@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus cab</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <link rel="stylesheet" href="css/ExternalStyleSheet.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="activePage.js"></script>
+<style>
+body{
+
+margin:0;
+padding:0;
+background-image:url(1.jpg);
+-webkit-background-size:cover;
+background-position: center center;
+heigght:90vh;
+font-family:poppins;
+
+}
+
+.wrapper{
+
+width:1170px;
+margin:5% auto;
+
+}
+
+.wrapper h2{
+
+text-transform:uppercase;
+font-weight:bold;
+text-align:center;
+font-size:60px;
+color:#fff;
+margin:0;
+
+}
+
+.single-service{
+
+position:relative;
+width:31%;
+height:320px;
+background:#fff;
+box-sizing:border-box;
+padding:0 15px;
+transition:.5s;
+overflow:hidden;
+float:left;
+margin:0 10px;
+text-align:center;
+
+}
+
+.line{
+
+width:150px;
+height:3px;
+background:#fff;
+margin:0 auto 60px auto;
+
+}
+
+.single-service p{
+
+color:#262626;
+font-size:14px;
+
+}
+
+.single-service h3{
+
+font-size:25px;
+text-transform:uppercase;
+letter-spacing:1px;
+color:#262626;
+
+}
+
+.social{
+
+width:60px;
+height:60px;
+background:#262626;
+border-radius:50%;
+margin:5% auto;
+
+}
+
+.social i{
+
+font-size:30px;
+padding:15px;
+color:#fff;
+
+}
+
+.single-service span{
+
+position:absolute;
+top:0;
+left:-110%;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.7);
+transform:.7s;
+transform:skewX(10deg);
+
+}
+
+.single-service:hover span{
+
+left:110%;
+
+}
+
+@media(max-width:600px){
+
+.wrapper{width:100%;}
+.single-service{
+
+width:100%;
+margin-bottom:30px;
+}
+.wrapper h2{font-size:30px;}
+}
+</style>
+</head>
+<body>
+    <div class="logos">
+        <a href="#"><img src="images/logos.png" alt="logo" width="90" height="40"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-us.html">SERVICES</a></li>
+            <li><a href="contact-us.html">CONTACT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <h2>Our services</h2>
+        <div class="line"></div>
+        <div class="single-service">
+            <div class="social"><i class="fa fa-app-photo-o"></i></div>
+            <span></span>
+            <h3>Indoor navigation app development</h3>
+            <p>We as the Campus cab team develop customized indoor navigation applications for businesses, universities and colleges. The aim for our applications is to provide users with precise directions, real time updates and additional features such as search, promotion and events. </p>
+        </div>
+        <div class="single-service">
+            <div class="social"><i class="fa fa-app"></i></div>
+            <span></span>
+            <h3>Indoor navigation system integration</h3>
+            <p>The Campus cab team provide indoor navigation system integration services to their clients (businesses, universities and colleges) wishing to enchance their visitors indoor navigation experience. Our system can be integrated into existing applications to provide users with accurate and reliable directions.  </p>
+        </div>
+        <div class="single-service">
+            <div class="social"><i class="fa fa-app"></i></div>
+            <span></span>
+            <h3>Indoor navigation consulting</h3>
+            <p>Consulting services are offered by the Campus cab team for our clients (businesses, universities and colleges) who see the need to improve their indoor navigation experience. Our team of experts can assist with identifying areas for improvement, provide helpful recommendations and assist clients implement solutions. </p>
+        </div>
+<div class="single-service">
+            <div class="social"><i class="fa fa-app"></i></div>
+            <span></span>
+            <h3>Indoor navigation consulting</h3>
+            <p>We offer consulting services to our clients (businesses, universities and colleges) looking to improve their indoor navigation experience. Our team of experts can assist with identifying areas for improvement, provide recommendations and assist clients implement solutions. </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
